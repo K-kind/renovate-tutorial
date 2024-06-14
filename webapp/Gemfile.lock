@@ -2222,7 +2222,7 @@ GEM
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
     ssrf_filter (1.1.1)
-    stackprof (0.2.23)
+    stackprof (0.2.26)
     stripe (5.55.0)
     stripe-ruby-mock (3.1.0.rc3)
       dante (>= 0.2.0)
