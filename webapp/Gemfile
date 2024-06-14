@@ -173,7 +173,7 @@ group :development, :test do
   gem 'capistrano-rbenv'
   gem 'capistrano-bundler'
   gem 'capistrano3-unicorn'
-  gem 'capistrano-sidekiq', '3.0.0.alpha.1' # 2.3だとエンコードが一部バグって起動できない
+  gem 'capistrano-sidekiq', '3.0.0.alpha.2' # 2.3だとエンコードが一部バグって起動できない
   gem 'bugsnag-capistrano', require: false
   gem 'poltergeist'
 
