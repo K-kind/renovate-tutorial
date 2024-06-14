@@ -148,7 +148,7 @@ group :development, :test do
   gem 'capybara', '~> 3.31.0'
   gem 'selenium-webdriver'
   gem 'webdriver'
-  gem 'stripe-ruby-mock', '3.1.0.rc3', :require => 'stripe_mock'
+  gem 'stripe-ruby-mock', '3.1.0', :require => 'stripe_mock'
 
   gem 'pry-rails'
   gem 'pry-doc'
