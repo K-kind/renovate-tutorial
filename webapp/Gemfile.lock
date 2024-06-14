@@ -1576,7 +1576,7 @@ GEM
       activesupport
       committee (>= 4.4.0)
       railties
-    concurrent-ruby (1.2.0)
+    concurrent-ruby (1.2.3)
     config (4.1.0)
       deep_merge (~> 1.2, >= 1.2.1)
       dry-validation (~> 1.0, >= 1.0.0)
@@ -1584,8 +1584,8 @@ GEM
     crass (1.0.6)
     daemon-spawn (0.4.2)
     dante (0.2.0)
-    database_cleaner (2.0.1)
-      database_cleaner-active_record (~> 2.0.0)
+    database_cleaner (2.0.2)
+      database_cleaner-active_record (>= 2, < 3)
     database_cleaner-active_record (2.0.1)
       activerecord (>= 5.a)
       database_cleaner-core (~> 2.0.0)
