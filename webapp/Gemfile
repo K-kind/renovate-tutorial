@@ -1,0 +1,236 @@
+source 'https://rubygems.org'
+ruby '3.1.3'
+
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
+  "https://github.com/#{repo_name}.git"
+end
+
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '7.0.4.1'
+# Use sqlite3 as the database for Active Record
+# gem 'sqlite3'
+gem 'mysql2'
+# Use Puma as the app server
+gem 'puma', '~> 3.7'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
+
+gem 'duktape'
+
+# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
+gem 'turbolinks', '~> 5'
+# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jbuilder', '~> 2.5'
+
+# Use Redis adapter to run Action Cable in production
+gem 'redis'
+# Use ActiveModel has_secure_password
+# gem 'bcrypt', '~> 3.1.7'
+
+# Reduces boot times through caching; required in config/boot.rb
+gem 'bootsnap', require: false
+
+gem 'rack-cors'
+gem "rack-timeout"
+
+gem 'psych', '< 4.0.0'
+
+gem 'matrix'
+
+group :development do
+  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+  gem 'web-console', '>= 3.3.0'
+  gem 'listen', '>= 3.0.5', '< 3.2'
+  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'spring'
+  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'letter_opener_web'
+end
+
+gem 'tzinfo-data'
+
+###############################
+
+gem 'enum_help'
+
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+
+# bundle exec rake doc:rails generates the API under doc/api.
+gem 'sdoc', group: :doc
+
+gem 'devise'
+gem 'erubis'
+gem 'omniauth'
+gem 'omniauth-oauth2', '~> 1.3.1'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-linkedin-oauth2'
+gem 'cancancan'
+
+gem 'dotenv-rails'
+gem 'seed-fu'
+
+gem 'activeadmin'
+gem 'activeadmin_addons'
+gem 'activeadmin_quill_editor'
+gem 'activeadmin_json_editor'
+gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources.git'
+gem 'ancestry'
+gem 'acts_as_list'
+
+gem 'ransack'
+
+gem 'redcarpet'
+gem 'bcrypt'
+
+gem 'carrierwave', git: 'https://github.com/carrierwaveuploader/carrierwave.git',
+    branch: 'master'
+gem 'rmagick', require: 'rmagick' # 画像サイスリサイズ
+gem 'fog-aws'
+gem 'file_validators'
+
+gem 'config' # 設定ファイルを簡単に用意
+gem 'meta-tags' # 設定ファイルを元にmeta_tagを動的に設定する
+
+gem 'nested_form_fields'
+gem 'cocoon'
+gem 'simple_form' #, '~> 3.4', :git => 'https://github.com/plataformatec/simple_form.git'
+
+# Use Unicorn as the app server
+gem 'unicorn'
+
+gem 'will_paginate'
+# gem 'kaminari'
+
+gem 'elasticsearch', '~> 7.17' # faradayのバージョンに影響する
+gem 'elasticsearch-api'
+gem 'elasticsearch-transport'
+
+gem 'elasticsearch-rails'
+gem 'elasticsearch-model'
+gem 'elasticsearch-persistence'
+
+gem 'month'
+
+gem 'slack-ruby-client'
+gem 'whenever'
+
+gem 'gon'
+gem 'gretel'
+
+gem "just-datetime-picker"
+
+gem 'stripe'
+
+gem 'split', require: 'split/dashboard' # A/B testing
+
+# open tracing by DataDog
+gem 'ddtrace'
+
+gem 'line-bot-api'
+
+group :development, :test, :staging do
+  gem 'ffaker'
+  gem 'faker'
+  gem 'faker-japanese'
+  gem 'test-prof'
+end
+
+group :development, :test do
+  gem 'bullet'
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # Adds support for Capybara system testing and selenium driver
+  gem 'capybara', '~> 3.31.0'
+  gem 'selenium-webdriver'
+  gem 'webdriver'
+  gem 'stripe-ruby-mock', '3.1.0.rc3', :require => 'stripe_mock'
+
+  gem 'pry-rails'
+  gem 'pry-doc'
+  gem 'pry-byebug'
+  gem 'rubocop', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rails_best_practices', require: false
+  gem "pre-commit", require: false
+
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'factory_bot_rails'
+  gem 'database_cleaner'
+  gem 'parallel_tests'
+
+  gem 'capybara-email'
+  gem 'simplecov', require: false
+  gem 'simplecov-cobertura', require: false
+  gem 'spring-commands-rspec'
+  gem 'capistrano', '~> 3.1'
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-rbenv'
+  gem 'capistrano-bundler'
+  gem 'capistrano3-unicorn'
+  gem 'capistrano-sidekiq', '3.0.0.alpha.1' # 2.3だとエンコードが一部バグって起動できない
+  gem 'bugsnag-capistrano', require: false
+  gem 'poltergeist'
+
+  gem 'rack-mini-profiler'
+  gem 'stackprof'
+  gem 'brakeman', require: false
+  gem 'reek', require: false
+  gem 'ed25519', require: false
+  gem 'bcrypt_pbkdf', require: false
+end
+
+group :production, :staging do
+  gem 'faraday_middleware-aws-sigv4'
+  gem 'google-analytics-rails'
+end
+
+gem 'bugsnag'
+
+group :test do
+  gem "committee-rails"
+  gem 'rspec-openapi'
+  gem 'rspec_junit_formatter'
+end
+
+gem 'committee'
+
+# for local serialization
+# install even if in production env to avoid errors on 'rails c'
+gem 'active_model_serializers'
+
+gem 'google-cloud-pubsub'
+
+gem 'grape'
+gem 'grape-entity'
+gem 'grape-swagger'
+gem 'grape-swagger-rails'
+
+gem 'wicked_pdf', '2.0.1'
+gem 'wkhtmltopdf-binary', '0.12.6.6'
+
+gem 'sidekiq', '~> 6'
+
+gem 'daemon-spawn', :require => 'daemon_spawn'
+gem 'migration_data'
+gem 'activerecord-import'
+gem 'recaptcha', require: 'recaptcha/rails'
+gem 'paranoia'
+gem 'sitemap_generator'
+gem 'google-cloud-bigquery'
+gem 'MailchimpMarketing'
+gem 'aws-sdk'
+gem 'aws-sdk-s3', require: false
+
+gem 'holiday_jp'
+
+gem 'email_validator'
+
+gem 'json-schema'
+
+gem 'nkf'
