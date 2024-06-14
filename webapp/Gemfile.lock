@@ -2002,7 +2002,7 @@ GEM
     public_suffix (5.0.1)
     puma (3.12.6)
     racc (1.6.2)
-    rack (2.2.6.2)
+    rack (2.2.9)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-cors (1.1.1)
@@ -2062,9 +2062,9 @@ GEM
     recaptcha (5.12.3)
       json
     redcarpet (3.6.0)
-    redis (5.0.6)
+    redis (5.0.7)
       redis-client (>= 0.9.0)
-    redis-client (0.12.1)
+    redis-client (0.12.2)
       connection_pool
     reek (6.1.4)
       kwalify (~> 0.7.0)
