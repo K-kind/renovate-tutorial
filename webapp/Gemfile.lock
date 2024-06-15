@@ -1708,7 +1708,7 @@ GEM
     faraday_middleware-aws-sigv4 (0.6.1)
       aws-sigv4 (~> 1.0)
       faraday (>= 1.8, < 2)
-    ffaker (2.21.0)
+    ffaker (2.23.0)
     ffi (1.15.5)
     file_validators (3.0.0)
       activemodel (>= 3.2)
