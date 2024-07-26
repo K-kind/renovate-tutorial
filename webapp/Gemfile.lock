@@ -1576,7 +1576,7 @@ GEM
       activesupport
       committee (>= 4.4.0)
       railties
-    concurrent-ruby (1.2.0)
+    concurrent-ruby (1.2.3)
     config (4.1.0)
       deep_merge (~> 1.2, >= 1.2.1)
       dry-validation (~> 1.0, >= 1.0.0)
@@ -1975,8 +1975,8 @@ GEM
     parallel (1.22.1)
     parallel_tests (4.1.0)
       parallel
-    paranoia (2.6.1)
-      activerecord (>= 5.1, < 7.1)
+    paranoia (2.6.4)
+      activerecord (>= 5.1, < 7.2)
     parser (3.2.0.0)
       ast (~> 2.4.1)
     pkg-config (1.5.1)
