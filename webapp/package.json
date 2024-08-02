@@ -10,7 +10,7 @@
     "@bugsnag/js": "^7.17.0",
     "@bugsnag/plugin-vue": "^7.17.0",
     "autosize": "^3.0.20",
-    "chart.js": "^2.6.0",
+    "chart.js": "^4.0.0",
     "classnames": "^2.2.0",
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.10.0",
