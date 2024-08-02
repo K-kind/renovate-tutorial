@@ -40,7 +40,7 @@
     "yakuhanjp": "^3.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "^6.1.1",
+    "autoprefixer": "^10.0.0",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^7.1.5",
