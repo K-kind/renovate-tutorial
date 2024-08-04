@@ -67,7 +67,7 @@
     "prettier": "^3.1.0",
     "sass": "^1.69.5",
     "scaffdog": "^2.5.0",
-    "stylelint": "^13.7.0",
+    "stylelint": "^16.0.0",
     "typescript": "^5.2.2",
     "unplugin-auto-import": "^0.17.4",
     "vite-plugin-vuetify": "^1.0.2",
