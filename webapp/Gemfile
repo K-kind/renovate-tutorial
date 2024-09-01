@@ -211,7 +211,7 @@ gem 'grape-entity'
 gem 'grape-swagger'
 gem 'grape-swagger-rails'
 
-gem 'wicked_pdf', '2.0.1'
+gem 'wicked_pdf', '2.8.1'
 gem 'wkhtmltopdf-binary', '0.12.6.6'
 
 gem 'sidekiq', '~> 6'
