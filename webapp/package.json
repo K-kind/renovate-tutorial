@@ -7,8 +7,8 @@
     "test": "test"
   },
   "dependencies": {
-    "@bugsnag/js": "^7.17.0",
-    "@bugsnag/plugin-vue": "^7.17.0",
+    "@bugsnag/js": "^8.0.0",
+    "@bugsnag/plugin-vue": "^8.0.0",
     "autosize": "^3.0.20",
     "chart.js": "^2.6.0",
     "classnames": "^2.2.0",
