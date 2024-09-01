@@ -2267,7 +2267,7 @@ GEM
     wicked_pdf (2.0.1)
       activesupport
     will_paginate (3.3.1)
-    wkhtmltopdf-binary (0.12.6.6)
+    wkhtmltopdf-binary (0.12.6.8)
     xdan-datetimepicker-rails (2.5.4)
       jquery-rails
       rails (>= 3.2.16)
@@ -2421,7 +2421,7 @@ DEPENDENCIES
   whenever
   wicked_pdf (= 2.0.1)
   will_paginate
-  wkhtmltopdf-binary (= 0.12.6.6)
+  wkhtmltopdf-binary (= 0.12.6.8)
 
 RUBY VERSION
    ruby 3.1.3p185
