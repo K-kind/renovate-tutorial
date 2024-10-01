@@ -36,7 +36,7 @@
     "vuejs-datepicker": "^1.6.2",
     "vuetify": "^2.2.13",
     "vuex": "^2.2.1",
-    "webpack": "^3.12.0",
+    "webpack": "^5.0.0",
     "yakuhanjp": "^3.2.0"
   },
   "devDependencies": {
