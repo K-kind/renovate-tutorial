@@ -1576,7 +1576,7 @@ GEM
       activesupport
       committee (>= 4.4.0)
       railties
-    concurrent-ruby (1.2.0)
+    concurrent-ruby (1.2.3)
     config (4.1.0)
       deep_merge (~> 1.2, >= 1.2.1)
       dry-validation (~> 1.0, >= 1.0.0)
@@ -1666,7 +1666,7 @@ GEM
       multi_json
     email_validator (2.2.4)
       activemodel
-    enum_help (0.0.19)
+    enum_help (0.0.20)
       activesupport (>= 3.0.0)
     erubi (1.12.0)
     erubis (2.7.0)
