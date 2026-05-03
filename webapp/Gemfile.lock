@@ -1576,7 +1576,7 @@ GEM
       activesupport
       committee (>= 4.4.0)
       railties
-    concurrent-ruby (1.2.0)
+    concurrent-ruby (1.2.3)
     config (4.1.0)
       deep_merge (~> 1.2, >= 1.2.1)
       dry-validation (~> 1.0, >= 1.0.0)
@@ -1972,6 +1972,7 @@ GEM
     openapi_parser (1.0.0)
     orm_adapter (0.5.0)
     os (1.1.4)
+    ostruct (0.1.0)
     parallel (1.22.1)
     parallel_tests (4.1.0)
       parallel
@@ -2033,12 +2034,13 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.5.0)
       loofah (~> 2.19, >= 2.19.1)
-    rails_best_practices (1.23.2)
+    rails_best_practices (1.23.4)
       activesupport
       code_analyzer (~> 0.5.5)
       erubis
       i18n
       json
+      ostruct
       require_all (~> 3.0)
       ruby-progressbar
     railties (7.0.4.1)
