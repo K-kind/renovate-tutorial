@@ -1567,9 +1567,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    committee (5.0.0)
+    committee (5.6.3)
       json_schema (~> 0.14, >= 0.14.3)
-      openapi_parser (~> 1.0)
+      openapi_parser (~> 2.0)
       rack (>= 1.5)
     committee-rails (0.6.1)
       actionpack
@@ -1969,7 +1969,7 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
-    openapi_parser (1.0.0)
+    openapi_parser (2.3.1)
     orm_adapter (0.5.0)
     os (1.1.4)
     parallel (1.22.1)
@@ -2002,7 +2002,7 @@ GEM
     public_suffix (5.0.1)
     puma (3.12.6)
     racc (1.6.2)
-    rack (2.2.6.2)
+    rack (2.2.23)
     rack-accept (0.4.5)
       rack (>= 0.4)
     rack-cors (1.1.1)
