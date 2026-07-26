@@ -1936,7 +1936,7 @@ GEM
       net-protocol
     net-ssh (7.0.1)
     nio4r (2.5.8)
-    nkf (0.2.0)
+    nkf (0.3.0)
     nokogiri (1.14.1-aarch64-linux)
       racc (~> 1.4)
     nokogiri (1.14.1-x86_64-linux)
